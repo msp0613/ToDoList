@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nametext"
+            android:text="tytul"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opis"
+            android:text="opis"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/nametext"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/czas"
+            android:text="opis"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/opis"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usun"
+            android:text="Usun"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/czas"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edytuj"
+            android:text="Edytuj"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/usun"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
